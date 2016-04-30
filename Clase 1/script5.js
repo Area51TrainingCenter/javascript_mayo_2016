@@ -5,6 +5,9 @@ cuadro.innerHTML = 'soy cuadro';
 document.body.appendChild(cuadro);
 
 
+
+
+
 var table = document.createElement('table');
 var tbody = document.createElement('tbody');
 var tr = document.createElement('tr');
