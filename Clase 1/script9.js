@@ -1,27 +1,33 @@
+function crearColumna(texto) {
+	var c = document.createElement('td');
+	c.innerHTML = texto;
+
+	return c;
+}
+
 function crearTabla() {
-	var table = document.createElement('table');
-	var tbody = document.createElement('tbody');
-	var tr = document.createElement('tr');
-	var td1 = document.createElement('td');
-	var td2 = document.createElement('td');
-	var td3 = document.createElement('td');
-	var td4 = document.createElement('td');
+	var miTablita = document.createElement('table');
+	var cuerpoDeMiTabla = document.createElement('tbody');
+	var filaDeTabla = document.createElement('tr');
 
-	td1.innerHTML = 'Columna 1';
-	td2.innerHTML = 'Columna 2';
-	td3.innerHTML = 'Columna 3';
-	td4.innerHTML = 'Columna 4';
+	var columnaDeTabla1 = crearColumna('Columna 1');
+	filaDeTabla.appendChild(columnaDeTabla1);
 
-	tr.appendChild(td1);
-	tr.appendChild(td2);
-	tr.appendChild(td3);
-	tr.appendChild(td4);
+	var columnaDeTabla2 = crearColumna('Columna 2');
+	filaDeTabla.appendChild(columnaDeTabla2);
 
-	tbody.appendChild(tr);
+	var columnaDeTabla3 = crearColumna('Columna 3');
+	filaDeTabla.appendChild(columnaDeTabla3);
 
-	table.appendChild(tbody);
+	var columnaDeTabla4 = crearColumna('Columna 4');
+	filaDeTabla.appendChild(columnaDeTabla4);
 
-	document.body.appendChild(table);
+
+	cuerpoDeMiTabla.appendChild(filaDeTabla);
+
+	miTablita.appendChild(cuerpoDeMiTabla);
+
+	document.body.appendChild(miTablita);
 }
 
 crearTabla();
