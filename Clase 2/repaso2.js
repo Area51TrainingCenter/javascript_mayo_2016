@@ -46,3 +46,26 @@ frutera.venderManzanas = function(cantidad, dinero) {
 // var dineroVuelto2 = frutera.venderManzanas(10, 5);
 // dineroVuelto2 // resultado: 0
 
+
+//var btnVender = document.getElementById('btn-vender');
+var btnVender = document.querySelector('#btn-vender');
+
+//sintaxis: element.addEventListener(evento, función(evento){ } );
+btnVender.addEventListener('click', function(evento){
+	evento.preventDefault();
+	//window.miEvento = evento;
+
+	var txtCantidad = document.querySelector('#txt-cantidad');
+	var txtDinero = document.querySelector('#txt-dinero');
+
+	// sintaxis: .value // valor dentro de un input (form)
+	var cantidadValor = txtCantidad.value;
+	var dineroValor = txtDinero.value;
+
+	var vueltoValor = frutera.venderManzanas(cantidadValor, dineroValor);
+
+	document.querySelector('#resultado').innerHTML = "Mi Vuelto es de " + vueltoValor;
+});
+
+
+
