@@ -4,17 +4,45 @@ frutera.manzanasTotal = 10;
 
 frutera.manzanasPrecio = 0.50; // 50 centimos
 
-frutera.venderManzanas = function(cantidad) {
+frutera.venderManzanas = function(cantidad, dinero) {
+	// cantidad: cantidad de manzanas a comprar
+	// dinero: dinero con el que pago las manzanas
+
+	/*
+	// Si compro 3 manzanas
+	console.log(10 - 3);
+	console.log(10 - cantidad);
+	console.log(frutera.manzanasTotal - cantidad);
+	*/
 	frutera.manzanasTotal = frutera.manzanasTotal - cantidad;
-	//frutera.manzanasTotal -= 1;
+	//frutera.manzanasTotal -= cantidad;
+
+	/*
+	// Si compro 3 manzanas
+	console.log(3 * 0.5);
+	console.log(cantidad * 0.5);
+	console.log(cantidad * frutera.manzanasPrecio);
+	*/
+	var costo = cantidad * frutera.manzanasPrecio;
+
+	/*
+	// Si compro 3 manzanas y pago con 20 soles
+	console.log(20 - 1.5);
+	console.log(20 - costo);
+	console.log(dinero - costo);
+	*/
+	var vuelto = dinero - costo;
+
+	return vuelto; // retorno tipo de dato: Number
+	//return dinero - (cantidad * frutera.manzanasPrecio);
 };
-//frutera.venderManzanas(4);
 
 
-/*
-var n = 10;
-var restar = function(x) {
-	n = n - x;
-};
-restar(3);
-*/
+// PROBAR EN CONSOLA
+
+// var dineroVuelto1 = frutera.venderManzanas(3, 2);
+// dineroVuelto1 // resultado: 0.5
+
+// var dineroVuelto2 = frutera.venderManzanas(10, 5);
+// dineroVuelto2 // resultado: 0
+
