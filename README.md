@@ -5,6 +5,23 @@
 **Email:** renzo.vista@gmail.com
 
 ---
+
+## Actualizaré los detalles de la clase de hoy a las 7pm.
+
+---
+
+## TAREA (Clase 5)
+* Modal (PopUp) usando jQuery
+* (link a la Imagen de la tarea aquí)
+
+
+convenciones de codigo en javascript (link pendiente)
+
+http://youmightnotneedjquery.com/
+
+https://developer.mozilla.org/es/docs/XMLHttpRequest/Using_XMLHttpRequest
+
+
 ## TAREA (Clase 4)
 Usar el código de *Clase 2: Tarea 2* (Personaje caminando) ya resuelto, y reescribir el código pasandolo a una Clase JS (similar a ejemplo de Automóvil).
 
