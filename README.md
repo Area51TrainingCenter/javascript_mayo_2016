@@ -6,7 +6,8 @@
 
 ---
 
-## Actualizaré los detalles de la clase de hoy a las 7pm.
+## TAREA (Clase 6)
+* SLIDER usando jQuery
 
 ---
 
