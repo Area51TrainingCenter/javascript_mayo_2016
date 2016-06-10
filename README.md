@@ -13,14 +13,6 @@
 
 ## TAREA (Clase 5)
 * Modal (PopUp) usando jQuery
-* (link a la Imagen de la tarea aquí)
-
-
-convenciones de codigo en javascript (link pendiente)
-
-http://youmightnotneedjquery.com/
-
-https://developer.mozilla.org/es/docs/XMLHttpRequest/Using_XMLHttpRequest
 
 
 ## TAREA (Clase 4)
@@ -29,6 +21,7 @@ Usar el código de *Clase 2: Tarea 2* (Personaje caminando) ya resuelto, y reesc
 ### Lectura recomendada
 
 * [JavaScript: Guía Rápida (ECMAScript 5)](JavaScript Quick Guide.md)
+* [JavaScript: Using XMLHttpRequest](https://developer.mozilla.org/es/docs/XMLHttpRequest/Using_XMLHttpRequest): La base de AJAX.
 * [Airbnb JavaScript Style Guide (ECMAScript 5)](https://github.com/airbnb/javascript/tree/master/es5) (en [español](http://snowdream.github.io/javascript-style-guide/javascript-style-guide/es/types.html))
 * [Airbnb JavaScript Style Guide (ECMAScript 6)](https://github.com/airbnb/javascript)
 * VIDEO: [JavaScript: The Good Parts - Subtítulos Español](https://www.youtube.com/watch?v=lP9-Zx_cCUg) (1 hora)
