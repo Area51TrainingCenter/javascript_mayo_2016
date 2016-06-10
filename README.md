@@ -28,7 +28,12 @@ Usar el código de *Clase 2: Tarea 2* (Personaje caminando) ya resuelto, y reesc
 
 ### Lectura recomendada
 
-* [JavaScript: Guía Rápida](JavaScript Quick Guide.md)
+* [JavaScript: Guía Rápida (ECMAScript 5)](JavaScript Quick Guide.md)
+* [Airbnb JavaScript Style Guide (ECMAScript 5)](https://github.com/airbnb/javascript/tree/master/es5) (en [español](http://snowdream.github.io/javascript-style-guide/javascript-style-guide/es/types.html))
+* [Airbnb JavaScript Style Guide (ECMAScript 6)](https://github.com/airbnb/javascript)
+* VIDEO: [JavaScript: The Good Parts - Subtítulos Español](https://www.youtube.com/watch?v=lP9-Zx_cCUg) (1 hora)
+
+* [Tú no necesitas jQuery (You Don't Need jQuery)](https://github.com/oneuijs/You-Dont-Need-jQuery/blob/master/README-es.md)
 
 #### Ambito de Variables
 * [Ambito de Variables](http://librosweb.es/libro/javascript/capitulo_4/ambito_de_las_variables.html)
@@ -38,6 +43,9 @@ Usar el código de *Clase 2: Tarea 2* (Personaje caminando) ya resuelto, y reesc
 
 * [Closures](https://developer.mozilla.org/es/docs/Web/JavaScript/Closures)
 * [Closures en JavaScript: entiéndelos de una vez por todas](http://www.variablenotfound.com/2012/10/closures-en-javascript-entiendelos-de.html)
+
+#### Clases
+* [Introducción a JavaScript orientado a objetos](https://developer.mozilla.org/es/docs/Web/JavaScript/Introducci%C3%B3n_a_JavaScript_orientado_a_objetos)
 
 #### Variado
 * [CevicheJS](http://cevichejs.com) Abarca los niveles básico e intermedio de JavaScript como herramienta para desarrollar el lado frontend de una web.

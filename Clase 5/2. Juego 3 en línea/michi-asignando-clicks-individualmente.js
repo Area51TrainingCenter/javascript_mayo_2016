@@ -1,4 +1,4 @@
-console.log('michi.js');
+console.log('michi-with-clicks.js');
 
 var col1 = document.querySelector('#col1');
 var col2 = document.querySelector('#col2');

@@ -5,3 +5,4 @@ Functions
 - closure y anonimas
 
 Classes
+ - Introducción a JavaScript orientado a objetos
