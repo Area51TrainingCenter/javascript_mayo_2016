@@ -25,7 +25,6 @@ Usar el código de *Clase 2: Tarea 2* (Personaje caminando) ya resuelto, y reesc
 * [Airbnb JavaScript Style Guide (ECMAScript 5)](https://github.com/airbnb/javascript/tree/master/es5) (en [español](http://snowdream.github.io/javascript-style-guide/javascript-style-guide/es/types.html))
 * [Airbnb JavaScript Style Guide (ECMAScript 6)](https://github.com/airbnb/javascript)
 * VIDEO: [JavaScript: The Good Parts - Subtítulos Español](https://www.youtube.com/watch?v=lP9-Zx_cCUg) (1 hora)
-
 * [Tú no necesitas jQuery (You Don't Need jQuery)](https://github.com/oneuijs/You-Dont-Need-jQuery/blob/master/README-es.md)
 
 #### Ambito de Variables
