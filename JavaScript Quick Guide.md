@@ -201,6 +201,20 @@ alert( 3 + 4 ); //: 7
 ### Bucles
 #### for
 ```javascript
+var i;
+var total = 10;
+
+// de 0 a 9 (10 iteraciones) 
+for(i=0; i<total; i++) {
+	console.log(i);
+}
+
+// de 9 a 0 (10 iteraciones) 
+for(i=total - 1; i>=0; i--) {
+	console.log(i);
+}
+```
+```javascript
 // La mejor practica es declarar antes la variable que usaremos
 var i;
 for(i=0; i<5; i++){
@@ -229,12 +243,86 @@ for(b=0; b<5; b++){
     console.log( dato );
 }
 ```
-#### for .. in
-Pendiente
-#### while
-Pendiente
-#### do .. while
-Pendiente
+#### for .. in (para Objects)
+```javascript
+var persona = {
+	nombre: 'Martha', 
+	edad: 25, 
+	email: 'martha@gmail.com'
+};
+var propiedad;
+var valor;
+for(propiedad in persona) {
+	valor = persona[propiedad];
+	console.log('propiedad:', propiedad, 'valor:', valor);
+}
+```
+#### forEach (solo para Arrays)
+```javascript
+var alumnos = ['Pepe', 'Lucho', 'Juan'];
+alumnos.forEach(function(item, index){
+	console.log('item:', item, 'index:', index);
+});
+```
+Lo mismo pero usando FOR:
+```javascript
+var index;
+var item;
+for(index = 0; index<alumnos.length; index++) {
+	item = alumnos[index];
+	console.log('item:', item, 'index:', index);
+}
+```
+#### while (USAR CON CUIDADO!)
+Sintaxis:
+```javascript
+while( condicional ) {
+	
+}
+```
+```javascript
+var i = 0;
+var total = 10;
+
+while(i<total) {
+	console.log('i:', i);
+	i++;
+}
+```
+Ejemplo:
+```javascript
+var i = 0;
+var numero;
+var listaNumeros = [];
+var total = 6;
+
+while(listaNumeros.length < total) {
+	// numero aleatoria entre 0 y 5
+	numero = Math.round(Math.random() * (total - 1));
+
+	if(listaNumeros.indexOf(numero) == -1) {
+		listaNumeros.push(numero);
+	}
+}
+console.log(listaNumeros);
+```
+#### do .. while (USAR CON CUIDADO!)
+```javascript
+var i = 0;
+var numero;
+var listaNumeros = [];
+var total = 6;
+
+do {
+	// numero aleatoria entre 0 y 5
+	numero = Math.round(Math.random() * (total - 1));
+
+	if(listaNumeros.indexOf(numero) == -1) {
+		listaNumeros.push(numero);
+	}
+} while(listaNumeros.length < total);
+console.log(listaNumeros);
+```
 
 ### Condicionales
 

@@ -6,6 +6,19 @@
 
 ---
 
+## TAREA (Clase 7)
+* Revisar los links en "Lectura recomendada", "Ambito de Variables", "Funciones Closures" y "Clases".
+* Hacer las tareas pendientes, de todas las clases.
+* Traer todas las tareas de todas las clases.
+* Hacer una página con 3 enlaces: Inicio, Nosotros y Contáctenos.
+  * Inicio: Galería de Imágenes (La desarrollada en la clase 7).
+  * Nosotros: Texto Cualquiera.
+  * Contáctenos: Un formulario cualquiera.
+  * La página no debe recargarse (Todo se trabaja en un solo archivo HTML).
+  * En Inicio si en la galería avanzo a la página 2, luego doy clic en Nosotros o Contáctenos, y luego doy clic en Inicio pues la galería debe aparecer en su página 1 y no en la página 2 como se dejo.
+
+---
+
 ## TAREA (Clase 6)
 * SLIDER usando jQuery
 

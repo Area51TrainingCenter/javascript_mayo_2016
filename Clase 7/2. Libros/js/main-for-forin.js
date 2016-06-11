@@ -15,20 +15,22 @@ var libros = [
 
 var librosHTML = [];
 
-// forEach (libros)
-libros.forEach(function(libro){
+// FOR (libros)
+var i;
+var total = libros.length;
+for(i=0; i<total; i++) {
 	librosHTML.push('<ul class="libro">');
 
-	// FOR IN ( libro )
+	// FOR IN ( libros[i] )
 	var propiedad;
 	var valor;
-	for(propiedad in libro) {
-		valor = libro[propiedad];
+	for(propiedad in libros[i]) {
+		valor = libros[i][propiedad];
 		librosHTML.push( '<li><strong>' + propiedad + '</strong>: ' + valor + '</li>' );
 	}
 
 	librosHTML.push('</ul>');
-});
+}
 
 document.getElementById('libros').innerHTML = librosHTML.join('');
 
