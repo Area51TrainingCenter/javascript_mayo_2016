@@ -9,7 +9,7 @@
 ## TAREA (Clase 7)
 * Revisar:
   * Repaso rápido de JavaScript: [JavaScript: Guía Rápida (ECMAScript 5)](JavaScript Quick Guide.md)
-  * Recomendaciones para escribir correctamente tu código JavaScript: [Airbnb JavaScript Style Guide (ECMAScript 5) - Español](http://snowdream.github.io/javascript-style-guide/javascript-style-guide/es/types.html).
+  * Recomendaciones para escribir correctamente tu código: [Airbnb JavaScript Style Guide (ES5) - Español](http://snowdream.github.io/javascript-style-guide/javascript-style-guide/es/types.html).
   * VIDEO: [JavaScript: The Good Parts - Subtítulos Español](https://www.youtube.com/watch?v=lP9-Zx_cCUg) (1 hora) Activar los subtitulos en Youtube.
   * Revisar los otros links en las secciones "Ambito de Variables", "Funciones Closures" y "Clases" de esta misma página.
 * Hacer las tareas pendientes, de todas las clases.
