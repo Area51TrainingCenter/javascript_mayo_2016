@@ -1,40 +1,54 @@
-var totalImagenes = 10;
-var porPagina = 4;
-var totalPaginas = Math.ceil(totalImagenes/porPagina);
+/*
+√ for
+while
+do while
+for in
+√ forEach (array)
+*/
 
-var anchoPagina = 250;
-var paginaActual = 1;
+// FOR
+var i;
+var total = 10;
 
-var margen = 0;
+for(i=0; i<total; i++) {
+	console.log(i);
+}
+for(i=total - 1; i>=0; i--) {
+	console.log(i);
+}
 
-$('.btn-gallery-next').on('click', function(e){
-	e.preventDefault();
+// WHILE
+// while( condicional ) { ... }
 
-	if (paginaActual < totalPaginas) {
+var i = 0;
+var total = 10;
 
-		paginaActual++;
+while(i<total) {
+	console.log('i:', i);
+	i++;
+}
 
-		//var margen = $('.pages').css('margin-left');
-		//$('.pages').css('margin-left', (parseInt(margen) - anchoPagina) + 'px');
+var i = 0;
+var numero;
+var listaNumeros = [];
 
-		margen -= anchoPagina;
-		$('.pages').css('margin-left', margen + 'px');
-	
+while(listaNumeros.length <= 6) {
+	i++;
+	console.log(i);
+	// numero aleatoria entre 0 y 5
+	numero = Math.round(Math.random() * 5);
+
+	if(listaNumeros.indexOf(numero) == -1) {
+		listaNumeros.push(numero);
 	}
-});
+}
 
-$('.btn-gallery-back').on('click', function(e){
-	e.preventDefault();
+console.log(listaNumeros);
 
-	if (paginaActual > 1) {
 
-		paginaActual--;
 
-		//var margen = $('.pages').css('margin-left');
-		//$('.pages').css('margin-left', (parseInt(margen) + anchoPagina) + 'px');
-		
-		margen += anchoPagina;
-		$('.pages').css('margin-left', margen + 'px');
-	
-	}
-});
+
+
+
+
+
